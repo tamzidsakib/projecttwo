@@ -1,0 +1,287 @@
+/*common css start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+/*common css end*/
+
+/*header start*/
+
+header{
+/*border: 1px solid;*/
+background-color: black;
+padding: 30px 0;
+margin: 0;
+}
+
+
+.container {
+width: 90%;
+/*border: 3px solid white;*/
+overflow: hidden;
+margin: 0 auto;
+}
+
+.logo {
+	width: 5%;
+	float: left;
+}
+.logo img{
+	/*border: 2px solid yellow;*/
+	width: 100%;
+}
+
+.menu {
+	width: 60%;
+float: right;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+text-decoration: none;
+color: #D62326;
+font-size: 18px;
+font-weight: 500;
+margin: 0 20px;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+.h_banner {
+	/*border: 2px solid white;*/
+}
+
+.hb_content {
+	/*border: 2px solid white;*/
+	margin: 0 auto;
+	padding: 150px 0;
+	width: 40%;
+	text-align: center;
+	line-height: 40px;
+}
+.hb_content h1{
+	margin: 0;
+	color: white;
+	font-size: 65px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.hb_content h2{
+	color: white;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	font-weight: 100;
+}
+button{
+	margin: 25px 0;
+	border: 2px solid #F8005E;
+	border-radius: 30px;
+	font-size: 15px;
+	padding: 20px 25px;
+	background-color: #F8005E;
+	color: white;
+	cursor: pointer;
+
+}
+/*header end*/
+/*banner start*/
+
+.banner {
+	padding: 120px 0;
+	/*border: 3px solid;*/
+}
+
+.b_content {
+width: 35%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.b_content h1{
+	font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 5px;
+}
+.b_content p{
+	padding: 10px 0 40px;
+	color:  #C0C0C0;
+	line-height: 40px;
+}
+
+.services {
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	padding: 60px 0;
+	width: 100%;
+	
+}
+.s_content{
+width: 75%;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+
+}
+
+.service1{
+	/*border: 3px solid;*/
+	width: 25%;
+	float: left;
+text-align: center;
+}
+
+.service2{
+	/*border: 3px solid;*/
+	margin: 0 130px;
+	width: 25%;
+	float: left;
+text-align: center;
+}
+
+.service3{
+	/*border: 3px solid;*/
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+h3{
+	margin: 40px 0;
+	font-size: 16px;
+	font-weight: 550;
+}
+h4{
+	color:  #C0C0C0;
+	font-size: 16px;
+	font-weight: 400;
+}
+.service2 h4{
+	margin: 28px 0 ;
+}
+.service3 h4{
+	margin: 28px 0 ;
+}
+
+
+.works {
+	
+	padding-top: 200px;
+	
+
+}
+.works h1{
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.works p{
+	margin: 60px 0;
+	text-align: center;
+	color: #C0C0C0;
+}
+.imgrow1{
+	margin: 30px auto;
+	width: 90%;
+	overflow: hidden;
+	
+}
+.img1 {
+margin-left: 65px;
+margin-right: 30px;
+width: 28%;
+float: left;
+}
+.img1 img{
+width: 100%;
+}
+
+.img2 {
+margin-right: 30px;
+width: 28%;
+float: left;
+}
+.img2 img{
+width: 100%;
+}
+
+.img3 {
+width: 28%;
+float: left;
+}
+.img3 img{
+width: 100%;
+}
+.imgrow2{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	
+}
+.img4 {
+margin-left: 65px;
+margin-right: 30px;
+width: 28%;
+float: left;
+}
+.img4 img{
+width: 100%;
+}
+
+.img5 {
+margin-right: 30px;
+width: 28%;
+float: left;
+}
+.img5 img{
+	width: 100%;
+}
+
+.img6 {
+	width: 28%;
+	float: left;
+}
+.img6 img{
+width: 100%;
+}
+/*banner end*/
+
+/*footer start*/
+footer{
+	padding: 30px;
+	background-color: black;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	
+}
+.contact{
+
+padding-top: 500px;
+padding-bottom: 300px;
+
+}
+.email{
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+
+}
+
+.email h1{
+font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 5px;
+}
+
+
+/*footer end*/
